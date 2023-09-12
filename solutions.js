@@ -51,3 +51,8 @@ function isIdentical (input1, input2) {
 function isEqual(input1, input2){
     return input1 == input2;
 }
+
+function or (input1, input2) {
+    return input1 || input2
+}
+
