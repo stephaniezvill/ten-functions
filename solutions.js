@@ -30,7 +30,11 @@ function isFalse(input) {
 function not(input) {
  return !input
 }
-
 function addOne(input) {
     return parseFloat(input) +1;
 }
+function isEven (input) {
+    if (input === false) {
+        return false;
+    }
+    return (input % 2) === 0
