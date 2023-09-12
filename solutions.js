@@ -30,3 +30,7 @@ function isFalse(input) {
 function not(input) {
  return !input
 }
+
+function addOne(input) {
+    return parseFloat(input) +1;
+}
